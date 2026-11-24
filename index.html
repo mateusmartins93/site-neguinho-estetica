@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neguinho Estética Automotiva · Lavagem detalhada, polimento, vitrificação e PPF em Camboriú</title>
+<meta name="description" content="Estética automotiva premium no Centro de Camboriú: lavagem detalhada, polimento, vitrificação, PPF e higienização de carros, motos e importados. Nota 5,0 no Google.">
+<meta name="theme-color" content="#05070D">
+<meta property="og:title" content="Neguinho Estética Automotiva">
+<meta property="og:description" content="Lavagem detalhada, polimento, vitrificação e PPF em Camboriú. Dê ao seu veículo o tratamento que ele merece.">
+<meta property="og:image" content="img/porsche.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 3 57 17.5v29L32 61 7 46.5v-29Z' fill='%2305070D' stroke='%2300C8FF' stroke-width='4'/%3E%3Ctext x='32' y='42' font-family='Arial Black,Arial' font-weight='900' font-style='italic' font-size='28' fill='%2300C8FF' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,400;0,600;0,800;1,800;1,900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#05070D;--bg2:#0A0F1A;--card:rgba(255,255,255,.035);--line:rgba(120,190,255,.14);
+  --neon:#00C8FF;--blue:#1677FF;--blue-d:#0B4FD1;--ice:#BFEFFF;--txt:#E8EEF7;--muted:#8D9AB0;--r:20px;
+  --glow:0 0 12px rgba(0,200,255,.55),0 0 34px rgba(22,119,255,.35);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:Saira,system-ui,sans-serif;line-height:1;letter-spacing:-.01em}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+section{padding:110px 0;position:relative}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:Saira,sans-serif;font-weight:600;font-size:13px;letter-spacing:.32em;text-transform:uppercase;color:var(--neon)}
+.eyebrow::before{content:"";width:9px;height:9px;background:var(--neon);clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);box-shadow:var(--glow)}
+h2{font-size:clamp(38px,5.6vw,72px);font-weight:900;font-style:italic;text-transform:uppercase;margin:16px 0 18px}
+h2 .n{color:var(--neon);text-shadow:var(--glow)}
+.sub{color:var(--muted);font-size:17.5px;max-width:580px}
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:Saira,sans-serif;font-weight:800;font-size:15px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;color:#fff;padding:17px 30px;border-radius:14px;border:0;cursor:pointer;background:linear-gradient(135deg,var(--blue),var(--neon));box-shadow:0 0 0 1px rgba(255,255,255,.12) inset,0 10px 30px -8px rgba(0,200,255,.6);transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 0 0 1px rgba(255,255,255,.2) inset,0 14px 40px -6px rgba(0,200,255,.85)}
+.btn.ghost{background:rgba(255,255,255,.04);box-shadow:inset 0 0 0 1px var(--line)}
+.btn.ghost:hover{box-shadow:inset 0 0 0 1px var(--neon),0 0 24px -6px var(--neon)}
+.btn svg{width:19px;height:19px}
+
+/* fundo de hexágonos (o teto de LED do estúdio) */
+.hexbg{position:absolute;inset:0;pointer-events:none;opacity:.5;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='84' height='146' viewBox='0 0 84 146'%3E%3Cg fill='none' stroke='%2300C8FF' stroke-opacity='.16' stroke-width='1.4'%3E%3Cpath d='M42 1 82 24v46L42 93 2 70V24Z'/%3E%3Cpath d='M0 94v52M84 94v52M42 93v53'/%3E%3C/g%3E%3C/svg%3E");mask-image:radial-gradient(ellipse at 50% 0%,#000 10%,transparent 70%);-webkit-mask-image:radial-gradient(ellipse at 50% 0%,#000 10%,transparent 70%)}
+
+/* header */
+header{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .3s,border-color .3s;border-bottom:1px solid transparent}
+header.on{background:rgba(5,7,13,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:78px}
+.logo{display:flex;flex-direction:column;align-items:flex-start;text-decoration:none;line-height:1}
+.logo b{font-family:Saira,sans-serif;font-weight:900;font-style:italic;font-size:30px;letter-spacing:.02em;background:linear-gradient(180deg,#fff 0%,#9BE7FF 45%,#1677FF 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 10px rgba(0,200,255,.55))}
+.logo small{font-family:Saira,sans-serif;font-weight:600;font-size:9.5px;letter-spacing:.42em;color:var(--ice);margin-top:3px;padding-left:2px}
+nav{display:flex;align-items:center;gap:30px;font-size:14px;font-weight:500}
+nav a.l{text-decoration:none;color:var(--muted);transition:color .2s}
+nav a.l:hover{color:#fff}
+nav .btn{padding:12px 20px;font-size:13px}
+
+/* hero */
+.hero{min-height:100vh;padding:130px 0 70px;display:grid;align-items:center;overflow:hidden}
+.hero .bgimg{position:absolute;inset:0;background:url(img/porsche.webp) center 35%/cover;opacity:.22;filter:saturate(1.2)}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 70% 40%,transparent 0%,var(--bg) 70%),linear-gradient(180deg,rgba(5,7,13,.2),var(--bg) 96%)}
+.hero .grid{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(50px,7.8vw,112px);font-weight:900;font-style:italic;text-transform:uppercase;margin:22px 0 24px}
+.hero h1 span{display:block;color:var(--neon);text-shadow:var(--glow)}
+.hero p{font-size:19px;color:#B9C4D6;max-width:520px}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:36px}
+.proof{display:flex;align-items:center;gap:18px;margin-top:42px;flex-wrap:wrap}
+.proof .g{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 16px}
+.proof .g b{font-family:Saira,sans-serif;font-size:28px;font-weight:800}
+.proof .g span{color:#FFC93C;letter-spacing:2px;font-size:13px}
+.proof .g small{display:block;color:var(--muted);font-size:12px}
+.proof .tags{display:flex;gap:8px;flex-wrap:wrap}
+.proof .tags i{font-style:normal;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ice);border:1px solid var(--line);border-radius:999px;padding:6px 12px}
+.portal{position:relative;justify-self:center;width:min(360px,100%);aspect-ratio:9/16;border-radius:30px;padding:2px;background:linear-gradient(160deg,var(--neon),rgba(22,119,255,.2) 40%,rgba(0,200,255,.9));box-shadow:0 0 50px -6px rgba(0,200,255,.55),0 40px 80px -30px #000}
+.portal video,.portal img{width:100%;height:100%;object-fit:cover;border-radius:28px;background:#000}
+.portal .live{position:absolute;left:16px;top:16px;display:flex;align-items:center;gap:8px;background:rgba(5,7,13,.7);backdrop-filter:blur(8px);border-radius:999px;padding:6px 12px;font-size:12px;font-weight:600;letter-spacing:.08em}
+.portal .live::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--neon);box-shadow:var(--glow);animation:pulsa 1.6s infinite}
+@keyframes pulsa{50%{opacity:.3}}
+
+/* faixa */
+.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:linear-gradient(90deg,rgba(22,119,255,.12),rgba(0,200,255,.06),rgba(22,119,255,.12));overflow:hidden;white-space:nowrap;padding:18px 0}
+.strip div{display:inline-block;animation:corre 34s linear infinite;font-family:Saira,sans-serif;font-weight:800;font-style:italic;font-size:22px;letter-spacing:.08em;text-transform:uppercase}
+.strip span{margin:0 26px;color:#fff}
+.strip span:nth-child(even){color:var(--neon);text-shadow:var(--glow)}
+@keyframes corre{to{transform:translateX(-50%)}}
+
+/* serviços */
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:56px}
+.sv{position:relative;background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.015));border:1px solid var(--line);border-radius:var(--r);padding:34px 30px 30px;overflow:hidden;transition:border-color .3s,transform .3s}
+.sv::before{content:"";position:absolute;inset:-1px;border-radius:inherit;background:radial-gradient(400px circle at var(--x,50%) var(--y,0%),rgba(0,200,255,.18),transparent 45%);opacity:0;transition:opacity .3s}
+.sv:hover{border-color:rgba(0,200,255,.5);transform:translateY(-4px)}
+.sv:hover::before{opacity:1}
+.sv .hx{position:relative;width:58px;height:64px;display:grid;place-items:center;margin-bottom:24px;background:rgba(0,200,255,.08);clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%)}
+.sv .hx svg{width:28px;height:28px;stroke:var(--neon);fill:none;stroke-width:1.7;filter:drop-shadow(0 0 6px rgba(0,200,255,.7))}
+.sv h3{position:relative;font-size:27px;font-weight:800;font-style:italic;text-transform:uppercase;margin-bottom:10px}
+.sv p{position:relative;color:var(--muted);font-size:15.5px}
+.sv small{position:relative;display:block;margin-top:18px;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--neon)}
+
+/* antes e depois */
+.ba{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
+.cmp{position:relative;aspect-ratio:4/5;border-radius:24px;overflow:hidden;border:1px solid var(--line);box-shadow:0 0 60px -20px rgba(0,200,255,.4);user-select:none;touch-action:pan-y;--p:50%}
+.cmp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cmp .depois{clip-path:inset(0 0 0 var(--p))}
+.cmp .bar{position:absolute;top:0;bottom:0;left:var(--p);width:2px;background:var(--neon);box-shadow:var(--glow);transform:translateX(-1px)}
+.cmp .knob{position:absolute;top:50%;left:var(--p);width:54px;height:54px;transform:translate(-50%,-50%);border-radius:50%;background:rgba(5,7,13,.75);border:2px solid var(--neon);box-shadow:var(--glow);display:grid;place-items:center;backdrop-filter:blur(6px)}
+.cmp .knob svg{width:24px;height:24px;stroke:#fff;fill:none;stroke-width:2}
+.cmp .lb{position:absolute;bottom:16px;font-family:Saira,sans-serif;font-weight:800;font-style:italic;letter-spacing:.14em;font-size:13px;text-transform:uppercase;background:rgba(5,7,13,.72);border-radius:8px;padding:6px 12px}
+.cmp .lb.a{left:16px}.cmp .lb.d{right:16px;color:var(--neon)}
+.cmp input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.done{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.done li{font-size:13.5px;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:8px 14px;color:#cfd8e6}
+
+/* vídeos */
+.reels{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 24px 24px;margin:48px -24px 0;scrollbar-width:thin;scrollbar-color:var(--blue) transparent}
+.reel{position:relative;flex:0 0 250px;aspect-ratio:9/16;border-radius:22px;overflow:hidden;scroll-snap-align:start;border:1px solid var(--line);background:#000;cursor:pointer;transition:border-color .3s,box-shadow .3s}
+.reel:hover{border-color:rgba(0,200,255,.6);box-shadow:0 0 34px -10px rgba(0,200,255,.7)}
+.reel video,.reel img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.reel .cap{position:absolute;left:0;right:0;bottom:0;padding:50px 16px 16px;background:linear-gradient(transparent,rgba(5,7,13,.92));font-family:Saira,sans-serif;font-weight:800;font-style:italic;text-transform:uppercase;font-size:17px;line-height:1.1}
+.reel .cap small{display:block;font-family:Inter,sans-serif;font-style:normal;font-weight:500;text-transform:none;font-size:12.5px;color:var(--muted);margin-top:4px}
+.reel .play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:rgba(5,7,13,.55);border:1.5px solid rgba(255,255,255,.6);display:grid;place-items:center;backdrop-filter:blur(6px);transition:all .25s}
+.reel .play svg{width:24px;height:24px;fill:#fff;margin-left:3px}
+.reel:hover .play{border-color:var(--neon);box-shadow:var(--glow)}
+.reel.tocando .play,.reel.tocando .cap,.reel.tocando img{opacity:0;pointer-events:none}
+.reels-nav{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap}
+.reels-nav a{color:var(--neon);font-weight:600;text-decoration:none;font-size:15px}
+
+/* vitrificação */
+.vitri{background:linear-gradient(180deg,var(--bg),var(--bg2) 30%,var(--bg2) 70%,var(--bg))}
+.vitri .grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.vitri .pic{position:relative;border-radius:26px;overflow:hidden;border:1px solid var(--line)}
+.vitri .pic img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.vitri .pic span{position:absolute;left:18px;bottom:18px;font-family:Saira,sans-serif;font-weight:800;font-style:italic;font-size:13px;letter-spacing:.14em;text-transform:uppercase;background:rgba(5,7,13,.75);border:1px solid var(--line);border-radius:10px;padding:8px 14px;color:var(--neon)}
+.ben{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:32px}
+.ben div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.ben b{display:block;font-family:Saira,sans-serif;font-size:19px;font-weight:800;font-style:italic;text-transform:uppercase;margin-bottom:4px}
+.ben span{color:var(--muted);font-size:14.5px}
+
+/* garagem */
+.garage{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:240px;gap:14px;margin-top:52px}
+.garage figure{position:relative;border-radius:20px;overflow:hidden;border:1px solid var(--line)}
+.garage figure:nth-child(1){grid-column:span 2;grid-row:span 2}
+.garage figure:nth-child(4){grid-row:span 2}
+.garage img{width:100%;height:100%;object-fit:cover;transition:transform .7s,filter .4s;filter:saturate(.95)}
+.garage figure:hover img{transform:scale(1.05);filter:saturate(1.15)}
+.garage figcaption{position:absolute;left:14px;bottom:12px;font-family:Saira,sans-serif;font-weight:800;font-style:italic;text-transform:uppercase;font-size:15px;letter-spacing:.06em;text-shadow:0 2px 12px #000}
+
+/* sobre */
+.about{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center}
+.about .duo{position:relative}
+.about .duo img:first-child{width:82%;aspect-ratio:3/4;object-fit:cover;border-radius:26px;border:1px solid var(--line)}
+.about .duo img:last-child{position:absolute;right:0;bottom:-30px;width:46%;aspect-ratio:3/4;object-fit:cover;border-radius:20px;border:3px solid var(--bg);box-shadow:0 0 0 1px var(--neon),0 0 34px -8px var(--neon)}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:30px}
+.why div{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;font-weight:600}
+.why div::before{content:"";flex:0 0 12px;height:12px;background:var(--neon);clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);box-shadow:var(--glow)}
+
+/* avaliações */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:50px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.rev .st{color:#FFC93C;letter-spacing:3px;font-size:14px}
+.rev p{font-size:16px;margin:12px 0 16px;color:#dfe6f1}
+.rev b{font-family:Saira,sans-serif;font-weight:600;font-size:15px}
+.rev small{color:var(--muted)}
+.score{display:flex;align-items:center;gap:16px}
+.score b{font-family:Saira,sans-serif;font-weight:900;font-style:italic;font-size:76px;line-height:1;color:#fff;text-shadow:var(--glow)}
+
+/* agendar */
+.book{background:radial-gradient(ellipse at 50% 0%,rgba(22,119,255,.18),transparent 60%)}
+.box{position:relative;background:rgba(10,15,26,.85);border:1px solid var(--line);border-radius:30px;padding:46px;display:grid;grid-template-columns:.85fr 1.15fr;gap:52px;box-shadow:0 0 80px -30px rgba(0,200,255,.45)}
+.box>div,.box>form{min-width:0}
+.lab{font-family:Saira,sans-serif;font-weight:600;font-size:12.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--neon);margin:24px 0 10px}
+.lab:first-child{margin-top:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips label{cursor:pointer}
+.chips input{position:absolute;opacity:0;pointer-events:none}
+.chips span{display:inline-block;border:1px solid var(--line);background:rgba(255,255,255,.03);border-radius:12px;padding:10px 16px;font-size:14.5px;font-weight:500;color:#cfd8e6;transition:all .15s}
+.chips input:checked+span{background:linear-gradient(135deg,var(--blue),var(--neon));border-color:transparent;color:#fff;box-shadow:0 0 22px -6px var(--neon)}
+.chips input:focus-visible+span{outline:2px solid var(--neon);outline-offset:2px}
+.field{margin-top:22px}
+.field input{width:100%;font:inherit;color:#fff;padding:15px 16px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.03)}
+.field input::placeholder{color:#6f7c92}
+.field input:focus{outline:none;border-color:var(--neon);box-shadow:0 0 0 3px rgba(0,200,255,.15)}
+.resumo{border:1px dashed rgba(0,200,255,.35);border-radius:16px;padding:18px 20px;font-size:15px;color:var(--muted);margin:22px 0 18px;min-height:88px}
+.resumo b{color:#fff}
+.box .btn{width:100%}
+.nota{font-size:12.5px;color:var(--muted);margin-top:14px;text-align:center}
+
+/* local */
+.local .grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:50px}
+.map{border-radius:24px;overflow:hidden;border:1px solid var(--line);min-height:420px;filter:invert(.9) hue-rotate(180deg) saturate(.8) brightness(.95)}
+.map iframe{width:100%;height:100%;min-height:420px;border:0;display:block}
+.place{display:grid;grid-template-rows:auto 1fr;gap:16px}
+.place img{width:100%;height:220px;object-fit:cover;object-position:50% 30%;border-radius:24px;border:1px solid var(--line)}
+.info{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:26px;display:grid;gap:16px;align-content:start}
+.info div small{display:block;font-family:Saira,sans-serif;font-weight:600;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--neon);margin-bottom:2px}
+.info .act{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.info .act .btn{padding:13px 18px;font-size:13px}
+
+footer{border-top:1px solid var(--line);padding:46px 0;color:var(--muted);font-size:13.5px}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+footer .soc{display:flex;gap:18px}
+footer .soc a{color:#cfd8e6;text-decoration:none}
+footer .soc a:hover{color:var(--neon)}
+.wa{position:fixed;right:20px;bottom:20px;width:60px;height:60px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 0 0 6px rgba(37,211,102,.15),0 10px 30px rgba(0,0,0,.5);z-index:60}
+.wa svg{width:31px;height:31px;fill:#fff}
+
+/* revelar na rolagem: sem JS fica tudo visível */
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+.js .rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.js .rv{opacity:1;transform:none;transition:none}.strip div,.portal .live::before{animation:none}html{scroll-behavior:auto}}
+
+@media(max-width:940px){
+  section{padding:78px 0}
+  nav a.l{display:none}
+  .hero{min-height:0;padding:110px 0 56px}
+  .hero .grid,.ba,.vitri .grid,.about,.box,.local .grid{grid-template-columns:minmax(0,1fr);gap:42px}
+  .portal{width:min(300px,82%)}
+  .svc{grid-template-columns:1fr}
+  .garage{grid-template-columns:1fr 1fr;grid-auto-rows:170px}
+  .garage figure:nth-child(4){grid-row:auto}
+  .revs{grid-template-columns:1fr}
+  .box{padding:26px}
+  .ben,.why{grid-template-columns:1fr}
+  .about .duo{margin-bottom:30px}
+  .reel{flex-basis:210px}
+  .eyebrow{letter-spacing:.18em;font-size:12px}
+}
+</style>
+</head>
+<body>
+<script>document.documentElement.classList.add('js')</script>
+
+<header id="hd">
+  <div class="wrap">
+    <a class="logo" href="#topo" aria-label="Neguinho Estética Automotiva"><b>NEGUINHO</b><small>ESTÉTICA AUTOMOTIVA</small></a>
+    <nav>
+      <a class="l" href="#servicos">Serviços</a>
+      <a class="l" href="#resultados">Resultados</a>
+      <a class="l" href="#estudio">Estúdio</a>
+      <a class="l" href="#local">Onde estamos</a>
+      <a class="btn" href="#agendar">Agendar</a>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+<section class="hero">
+  <div class="bgimg" aria-hidden="true"></div>
+  <div class="hexbg" aria-hidden="true"></div>
+  <div class="wrap grid">
+    <div>
+      <span class="eyebrow">Estética automotiva premium · Camboriú</span>
+      <h1>Padrão showroom <span>em cada detalhe.</span></h1>
+      <p>Lavagem detalhada, polimento, vitrificação e PPF para carros, motos e importados. Dê ao seu veículo o tratamento que ele merece.</p>
+      <div class="cta">
+        <a class="btn" href="#agendar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg>Agendar horário</a>
+        <a class="btn ghost" href="#resultados">Ver resultados</a>
+      </div>
+      <div class="proof">
+        <div class="g"><b>5,0</b><div><span>★★★★★</span><small>11 avaliações no Google</small></div></div>
+        <div class="tags"><i>Carros</i><i>Motos</i><i>Importados</i></div>
+      </div>
+    </div>
+    <div class="portal">
+      <video src="video/hero.mp4" poster="img/poster-hero.webp" autoplay muted loop playsinline preload="auto" aria-label="Ford Ranger Raptor recém-vitrificada no estúdio de LED do Neguinho"></video>
+      <span class="live">Direto do estúdio</span>
+    </div>
+  </div>
+</section>
+
+<div class="strip" aria-hidden="true"><div><span>Lavagem detalhada</span><span>Polimento</span><span>Vitrificação</span><span>PPF</span><span>Higienização</span><span>Motos</span><span>Importados</span><span>Lavagem detalhada</span><span>Polimento</span><span>Vitrificação</span><span>PPF</span><span>Higienização</span><span>Motos</span><span>Importados</span></div></div>
+
+<section id="servicos">
+  <div class="hexbg" aria-hidden="true"></div>
+  <div class="wrap">
+    <span class="eyebrow rv">Serviços</span>
+    <h2 class="rv">Do brilho à <span class="n">proteção</span></h2>
+    <p class="sub rv">Cada serviço é feito à mão, no estúdio, com produtos profissionais e atenção a cada detalhe.</p>
+    <div class="svc">
+      <div class="sv rv"><div class="hx"><svg viewBox="0 0 24 24"><path d="M7 16c-2 0-3-1.5-3-3 0-2 2-3 3-5 1 2 3 3 3 5 0 1.5-1 3-3 3Z"/><path d="M15 11c-1.6 0-2.5-1.2-2.5-2.5 0-1.6 1.6-2.4 2.5-4 .9 1.6 2.5 2.4 2.5 4 0 1.3-.9 2.5-2.5 2.5Z"/><path d="M3 21h18"/></svg></div><h3>Lavagem detalhada</h3><p>Carroceria, rodas, caixas de roda e motor limpos com técnica que não risca a pintura.</p><small>Carros e motos</small></div>
+      <div class="sv rv"><div class="hx"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 4v2M20 12h-2M12 20v-2M4 12h2"/></svg></div><h3>Polimento</h3><p>Correção de riscos e manchas para devolver profundidade, cor e reflexo à pintura.</p><small>Lixamento e polimento</small></div>
+      <div class="sv rv"><div class="hx"><svg viewBox="0 0 24 24"><path d="M12 3 20 7.5v9L12 21l-8-4.5v-9Z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Vitrificação</h3><p>Camada de proteção que mantém o brilho e facilita a lavagem. Aplicação de vitrificador VX45 da Alcance.</p><small>Pacote full vitrificação</small></div>
+      <div class="sv rv"><div class="hx"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4Z"/><path d="M4 9h16M8 5v14"/></svg></div><h3>PPF</h3><p>Película de proteção da pintura contra pedrisco e riscos. Kit essencial e PPF camaleão.</p><small>Carros e motos</small></div>
+      <div class="sv rv"><div class="hx"><svg viewBox="0 0 24 24"><path d="M6 20V9a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v11"/><path d="M4 14h16M8 6V4h8v2"/></svg></div><h3>Higienização</h3><p>Higienização completa de bancos, teto e assoalho. Interior limpo e sem odor.</p><small>Interna completa</small></div>
+      <div class="sv rv"><div class="hx"><svg viewBox="0 0 24 24"><circle cx="5.5" cy="16.5" r="3.5"/><circle cx="18.5" cy="16.5" r="3.5"/><path d="M5.5 16.5 9 9h5l4.5 7.5M14 9l-2-4h-2M9 9l3 7.5h3"/></svg></div><h3>Motos e restauração</h3><p>Detalhamento de motos, pintura de pinças e restauração de peças como caçamba.</p><small>Detalhes que fazem diferença</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="resultados" style="padding-top:20px">
+  <div class="wrap ba">
+    <div class="cmp rv" id="cmp">
+      <img src="img/antes.webp" alt="Jeep Renegade coberto de barro antes do serviço">
+      <img class="depois" src="img/depois.webp" alt="O mesmo Jeep Renegade limpo e brilhando depois do serviço">
+      <div class="bar"></div>
+      <div class="knob"><svg viewBox="0 0 24 24"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></div>
+      <span class="lb a">Antes</span><span class="lb d">Depois</span>
+      <input type="range" min="0" max="100" value="50" aria-label="Arraste para comparar antes e depois">
+    </div>
+    <div>
+      <span class="eyebrow rv">Antes e depois</span>
+      <h2 class="rv">Milagre <span class="n">concedido</span></h2>
+      <p class="sub rv">Este Jeep chegou coberto de barro. Saiu assim. Arraste a linha para comparar.</p>
+      <ul class="done rv">
+        <li>Lavação detalhada</li><li>Lavação de motor</li><li>Lixamento e polimento</li><li>Higienização completa</li><li>Teto, banco e assoalho</li><li>Pintura de pinça</li>
+      </ul>
+      <div class="cta rv" style="margin-top:30px"><a class="btn" href="#agendar">Quero esse resultado</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="estudio">
+  <div class="wrap">
+    <div class="reels-nav">
+      <div>
+        <span class="eyebrow rv">Por dentro do estúdio</span>
+        <h2 class="rv">Veja o <span class="n">trabalho</span></h2>
+        <p class="sub rv">Toque para assistir com som. Os vídeos são do nosso Instagram.</p>
+      </div>
+      <a class="rv" href="https://www.instagram.com/neguinho_estetica_automotiva/" target="_blank" rel="noopener">@neguinho_estetica_automotiva →</a>
+    </div>
+    <div class="reels">
+      <div class="reel" data-src="video/vx45.mp4"><img src="img/poster-vx45.webp" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M6 4v16l14-8Z"/></svg></span><span class="cap">Vitrificação VX45<small>Aplicação passo a passo</small></span></div>
+      <div class="reel" data-src="video/milagre.mp4"><img src="img/poster-milagre.webp" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M6 4v16l14-8Z"/></svg></span><span class="cap">Milagre concedido<small>Do barro ao brilho</small></span></div>
+      <div class="reel" data-src="video/ranger.mp4"><img src="img/poster-ranger.webp" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M6 4v16l14-8Z"/></svg></span><span class="cap">Pacote full vitrificação<small>Ford Ranger Raptor</small></span></div>
+      <div class="reel" data-src="video/polimento.mp4"><img src="img/poster-polimento.webp" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M6 4v16l14-8Z"/></svg></span><span class="cap">Polimento<small>Omega no estúdio</small></span></div>
+      <div class="reel" data-src="video/ppf.mp4"><img src="img/poster-ppf.webp" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M6 4v16l14-8Z"/></svg></span><span class="cap">Lavação + kit PPF<small>Triumph</small></span></div>
+      <div class="reel" data-src="video/camaleao.mp4"><img src="img/poster-camaleao.webp" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M6 4v16l14-8Z"/></svg></span><span class="cap">PPF camaleão<small>Efeito que muda de cor</small></span></div>
+      <div class="reel" data-src="video/nc750.mp4"><img src="img/poster-nc750.webp" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M6 4v16l14-8Z"/></svg></span><span class="cap">Detalhamento NC750<small>Moto por inteiro</small></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="vitri">
+  <div class="wrap grid">
+    <div class="pic rv"><img src="img/vx45.webp" alt="Neguinho aplicando vitrificador VX45 no capô de uma picape preta" loading="lazy"><span>Vitrificador VX45 · Alcance</span></div>
+    <div>
+      <span class="eyebrow rv">Vitrificação</span>
+      <h2 class="rv">Você conhece a <span class="n">vitrificação?</span></h2>
+      <p class="sub rv">É uma camada de proteção aplicada sobre a pintura depois da correção. Serve pra carro, moto, jet e tudo que tem verniz.</p>
+      <div class="ben">
+        <div class="rv"><b>Brilho</b><span>Reflexo profundo e duradouro na pintura.</span></div>
+        <div class="rv"><b>Proteção</b><span>Barreira contra sol, chuva ácida e contaminação.</span></div>
+        <div class="rv"><b>Fácil de lavar</b><span>A sujeira gruda menos e sai com menos esforço.</span></div>
+        <div class="rv"><b>Valorização</b><span>Pintura conservada vale mais na hora de vender.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="eyebrow rv">Garagem</span>
+    <h2 class="rv">Quem já passou <span class="n">por aqui</span></h2>
+    <div class="garage">
+      <figure class="rv"><img src="img/porsche.webp" alt="Porsche 911 preto sob o teto de LED hexagonal" loading="lazy"><figcaption>Porsche 911</figcaption></figure>
+      <figure class="rv"><img src="img/amarelo.webp" alt="Porsche Boxster amarelo conversível no estúdio" loading="lazy"><figcaption>Boxster</figcaption></figure>
+      <figure class="rv"><img src="img/dupla.webp" alt="Dois esportivos, laranja e azul, sob as luzes do estúdio" loading="lazy"><figcaption>Esportivos</figcaption></figure>
+      <figure class="rv"><img src="img/ranger.webp" alt="Ford Ranger Raptor preta no estúdio" loading="lazy"><figcaption>Ranger Raptor</figcaption></figure>
+      <figure class="rv"><img src="img/omega.webp" alt="Chevrolet Omega azul polido" loading="lazy"><figcaption>Omega</figcaption></figure>
+      <figure class="rv"><img src="img/triumph.webp" alt="Triumph vermelha" loading="lazy"><figcaption>Triumph</figcaption></figure>
+      <figure class="rv"><img src="img/nc.webp" alt="Honda NC750 detalhada" loading="lazy"><figcaption>Honda NC750</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="hexbg" aria-hidden="true"></div>
+  <div class="wrap about">
+    <div class="duo rv">
+      <img src="img/neguinho.webp" alt="Neguinho trabalhando com a camiseta da marca" loading="lazy">
+      <img src="img/selfie.webp" alt="Neguinho sorrindo no estúdio" loading="lazy">
+    </div>
+    <div>
+      <span class="eyebrow rv">Por que nos escolher</span>
+      <h2 class="rv">Seu carro em <span class="n">boas mãos</span></h2>
+      <p class="sub rv">Na Neguinho Estética Automotiva, cada veículo é tratado como se fosse nosso. O resultado aparece no brilho e na confiança de quem volta.</p>
+      <div class="why">
+        <div class="rv">Profissionalismo exemplar</div>
+        <div class="rv">Atenção aos detalhes</div>
+        <div class="rv">Produtos de qualidade</div>
+        <div class="rv">Conveniência total</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:40px">
+  <div class="wrap">
+    <div class="reels-nav">
+      <div><span class="eyebrow rv">Avaliações no Google</span><h2 class="rv">Nota <span class="n">máxima</span></h2></div>
+      <div class="score rv"><b>5,0</b><div><span style="color:#FFC93C;letter-spacing:3px">★★★★★</span><br><small style="color:var(--muted)">11 avaliações</small></div></div>
+    </div>
+    <div class="revs">
+      <div class="rev rv"><span class="st">★★★★★</span><p>“É a melhor estética automotiva da região, muito responsável e caprichoso.”</p><b>Cristiane D.</b> <small>· Google</small></div>
+      <div class="rev rv"><span class="st">★★★★★</span><p>“Serviço de ótima qualidade, muito capricho e todo cuidado que seu carro merece.”</p><b>Comercial Prime Esquadrias</b> <small>· Google</small></div>
+      <div class="rev rv"><span class="st">★★★★★</span><p>“Qualidade e responsabilidade com o veículo do cliente, parabéns pelo atendimento.”</p><b>Carlos José R.</b> <small>· Google</small></div>
+      <div class="rev rv"><span class="st">★★★★★</span><p>“Aqui é o melhor, não adianta. Bom atendimento, confiável, super recomendo.”</p><b>Lucas L.</b> <small>· Google</small></div>
+      <div class="rev rv"><span class="st">★★★★★</span><p>“Esse cumpre o que promete. Parabéns.”</p><b>Lucas A.</b> <small>· Google</small></div>
+      <div class="rev rv"><span class="st">★★★★★</span><p>“Ótimo trabalho, capricho sempre.”</p><b>Juninho R.</b> <small>· Google</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="book" id="agendar">
+  <div class="wrap">
+    <div class="box rv">
+      <div>
+        <span class="eyebrow">Agendamento</span>
+        <h2>Reserve seu <span class="n">horário</span></h2>
+        <p class="sub">Escolha o veículo, o serviço e o melhor dia. A mensagem vai pronta para o WhatsApp e a gente confirma o horário com você.</p>
+      </div>
+      <form id="agenda" data-wa="5547999578869" data-loja="Neguinho Estética Automotiva">
+        <div class="lab">1 · Veículo</div>
+        <div class="chips">
+          <label><input type="radio" name="porte" value="carro" checked><span>Carro</span></label>
+          <label><input type="radio" name="porte" value="SUV ou picape"><span>SUV / Picape</span></label>
+          <label><input type="radio" name="porte" value="importado"><span>Importado</span></label>
+          <label><input type="radio" name="porte" value="moto"><span>Moto</span></label>
+        </div>
+        <div class="lab">2 · Serviço</div>
+        <div class="chips">
+          <label><input type="radio" name="servico" value="Lavagem detalhada" checked><span>Lavagem detalhada</span></label>
+          <label><input type="radio" name="servico" value="Polimento"><span>Polimento</span></label>
+          <label><input type="radio" name="servico" value="Vitrificação"><span>Vitrificação</span></label>
+          <label><input type="radio" name="servico" value="PPF"><span>PPF</span></label>
+          <label><input type="radio" name="servico" value="Higienização interna"><span>Higienização</span></label>
+        </div>
+        <div class="lab">3 · Dia e período</div>
+        <div class="chips" data-dias></div>
+        <div class="chips" style="margin-top:8px">
+          <label><input type="radio" name="periodo" value="de manhã" checked><span>Manhã</span></label>
+          <label><input type="radio" name="periodo" value="à tarde"><span>Tarde</span></label>
+        </div>
+        <div class="field"><input name="modelo" type="text" placeholder="Modelo do veículo (ex.: Jeep Renegade)" maxlength="40" autocomplete="off"></div>
+        <div class="resumo" data-resumo></div>
+        <button class="btn" type="submit"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Z"/></svg>Enviar pelo WhatsApp</button>
+        <p class="nota">Segunda a sábado, das 8h às 12h e das 13h às 18h.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="local" id="local">
+  <div class="wrap">
+    <span class="eyebrow rv">Onde estamos</span>
+    <h2 class="rv">No Centro de <span class="n">Camboriú</span></h2>
+    <div class="grid">
+      <div class="place rv">
+        <img src="img/fachada.webp" alt="Fachada da Neguinho Estética Automotiva com o letreiro azul" loading="lazy">
+        <div class="info">
+          <div><small>Endereço</small>R. João Morais, 271 · Centro · Camboriú, SC</div>
+          <div><small>Horário</small>Segunda a sábado, das 8h às 12h e das 13h às 18h</div>
+          <div><small>WhatsApp</small>(47) 99957-8869</div>
+          <div class="act">
+            <a class="btn" href="https://wa.me/5547999578869?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20servi%C3%A7o." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+            <a class="btn ghost" href="https://www.google.com/maps/place/Neguinho+Est%C3%A9tica+Automotiva+Cambori%C3%BA/@-27.0215169,-48.647176,17z/data=!4m6!3m5!1s0x94d8b55e41af1ba9:0x1dab768e5ab7ee1d!8m2!3d-27.0215169!4d-48.647176!16s%2Fg%2F11vr57dzgq" target="_blank" rel="noopener">Como chegar</a>
+          </div>
+        </div>
+      </div>
+      <div class="map rv"><iframe title="Mapa da Neguinho Estética Automotiva" loading="lazy" src="https://maps.google.com/maps?q=Neguinho%20Est%C3%A9tica%20Automotiva%2C%20R.%20Jo%C3%A3o%20Morais%20271%2C%20Cambori%C3%BA&z=16&output=embed"></iframe></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="logo" href="#topo"><b>NEGUINHO</b><small>ESTÉTICA AUTOMOTIVA</small></a>
+    <div class="soc">
+      <a href="https://www.instagram.com/neguinho_estetica_automotiva/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.tiktok.com/@neguinho_estetica" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://wa.me/5547999578869" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+    <div>© Neguinho Estética Automotiva · Camboriú, SC</div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/5547999578869?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20servi%C3%A7o." target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 2.5 1 3 .8 3.6.7.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3ZM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8Zm0-21.6A11.8 11.8 0 0 0 1.8 17.9L.2 23.8l6-1.6A11.8 11.8 0 1 0 12 .2Z"/></svg></a>
+
+<script>
+(function(){
+  // cabeçalho com vidro ao rolar
+  var hd=document.getElementById('hd');function sc(){hd.classList.toggle('on',scrollY>30)}addEventListener('scroll',sc,{passive:true});sc();
+  // revelar na rolagem
+  var rv=document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});rv.forEach(function(el){io.observe(el)})}else rv.forEach(function(el){el.classList.add('in')});
+  // luz que segue o mouse nos cards
+  document.querySelectorAll('.sv').forEach(function(c){c.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect();c.style.setProperty('--x',(e.clientX-r.left)+'px');c.style.setProperty('--y',(e.clientY-r.top)+'px')})});
+  // antes e depois
+  var cmp=document.getElementById('cmp');if(cmp){var ip=cmp.querySelector('input');ip.addEventListener('input',function(){cmp.style.setProperty('--p',ip.value+'%')})}
+  // vídeos: carregam só ao tocar, um por vez
+  var atual=null;
+  document.querySelectorAll('.reel').forEach(function(r){r.addEventListener('click',function(){
+    var v=r.querySelector('video');
+    if(!v){v=document.createElement('video');v.src=r.dataset.src;v.playsInline=true;v.controls=true;v.preload='auto';r.insertBefore(v,r.firstChild);v.addEventListener('ended',function(){r.classList.remove('tocando')})}
+    if(atual&&atual!==v){atual.pause();atual.parentNode.classList.remove('tocando')}
+    if(v.paused){v.play();r.classList.add('tocando');atual=v}
+  })});
+  // agendador
+  var f=document.getElementById('agenda');if(!f)return;
+  var dias=f.querySelector('[data-dias]'),res=f.querySelector('[data-resumo]');
+  var nomes=['dom','seg','ter','qua','qui','sex','sáb'],d=new Date(),n=0,html='';
+  while(n<6){d.setDate(d.getDate()+1);if(d.getDay()===0)continue;var v=nomes[d.getDay()]+' '+d.getDate()+'/'+(d.getMonth()+1);html+='<label><input type="radio" name="dia" value="'+v+'"'+(n===0?' checked':'')+'><span>'+v+'</span></label>';n++}
+  dias.innerHTML=html;
+  function val(k){var e=f.querySelector('[name="'+k+'"]:checked');return e?e.value:''}
+  function mod(){return f.modelo.value.trim().replace(/[<>]/g,'')}
+  function msg(){return 'Olá! Vim pelo site e quero agendar: '+val('servico')+' ('+val('porte')+(mod()?', '+mod():'')+'), '+val('dia')+' '+val('periodo')+'. Tem horário?'}
+  function at(){res.innerHTML='<b>'+val('servico')+'</b> · '+val('porte')+(mod()?' · <b>'+mod()+'</b>':'')+'<br>'+val('dia')+', '+val('periodo')}
+  f.addEventListener('change',at);f.addEventListener('input',at);at();
+  f.addEventListener('submit',function(e){e.preventDefault();window.open('https://wa.me/'+f.dataset.wa+'?text='+encodeURIComponent(msg()),'_blank','noopener')});
+})();
+</script>
+</body>
+</html>
